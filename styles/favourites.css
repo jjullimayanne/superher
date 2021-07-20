@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-stretch: ultra-condensed;
+
+}
+
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    background:rgb(0, 231, 255);
+    z-index: 99;
+}
+
+header *{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main result body */
+#result-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+}
+
+#results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 100%;
+}
+
+/* Cards */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 680px;
+    --color1: rgb(0, 231, 255);
+    --color2: rgb(255, 0, 231);
+    box-shadow: -13px -13px 13px -15px var(--color1), 
+    13px 13px 13px -15px var(--color2), 
+    0 0 4px 2px rgba(255,255,255,0.5),
+    0 35px 25px -15px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    border: 10px solid rgb(76, 116, 177);
+    width: 320;
+    height: 420;
+    background: linear-gradient(to bottom right, #d9e4ec,#adc1d1,#7d99af,#557792,#7d99af,#adc1d1);
+  
+}
+
+.card-img-container img{
+    height: 200px;
+    width: 290px;
+    margin-top: -25px;;
+    border: 5px rgb(86, 125, 184) outset;
+    box-shadow: 3px 3px 10px #000;
+}
+
+.card-name{
+    padding: 4px;
+    padding-top: 8px;
+    font-size: 1.4rem;
+}
+
+.card-name:hover{
+    color: rgb(4, 73, 85);
+    cursor: pointer;
+}
+
+/* Stats */
+#stats-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+#stat-names{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 10px;
+}
+
+#stat-names span{
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+#stat-bars{
+    width: 90%;
+    font-size: .9rem;
+
+}
+
+.bar-container{
+    background-color: rgba(172, 77, 77, 0);
+    width: 82%;
+    padding: 2px 0px 2px 0px;
+    margin-top: 3px;
+}
+
+.bar{
+    background-color: rgb(159, 175, 219);
+    border-radius: 10px;
+    padding: 2px 0px 2px 0px;
+    padding-left: 5px;
+}

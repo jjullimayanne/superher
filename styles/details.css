@@ -1,0 +1,185 @@
+
+
+body{
+    font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-stretch: ultra-condensed;
+
+}
+ 
+
+.success{
+    color: black;
+    background-color: red;
+}
+
+.failure{
+    color: black;
+    background-color: yellow;
+}
+
+body, html{
+    margin: 0;
+}
+
+header{
+    background:rgb(0, 231, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+header img {
+    max-width:180px;
+    max-height:135px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+
+}
+
+
+
+.favourite-router *{
+    border-radius: 10px;
+}
+
+.favourite-router *:hover{
+    color: red;
+}
+
+.app-name{
+    padding-left: 20px;
+}
+
+.app-name a{
+    text-decoration: none;
+    color: rgb(223, 211, 211);
+}
+
+header button{
+    margin-right: 20px;
+}
+
+header button a{
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 680px;
+    --color1: rgb(0, 231, 255);
+    --color2: rgb(255, 0, 231);
+    box-shadow: -13px -13px 13px -15px var(--color1), 
+    13px 13px 13px -15px var(--color2), 
+    0 0 4px 2px rgba(255,255,255,0.5),
+    0 35px 25px -15px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    border: 10px solid rgb(76, 116, 177);
+    width: 320;
+    height: 420;
+    background: linear-gradient(to bottom right, #d9e4ec,#adc1d1,#7d99af,#557792,#7d99af,#adc1d1);
+  
+   
+}
+
+.description{
+  
+        height: 20px;
+        width: 390px;
+        margin-top: 10px;
+        margin-left: 5px;
+        background: linear-gradient(to right, rgb(52, 113, 170),rgb(98, 133, 167),rgb(52, 113, 170));
+        font-size: 10px;
+        font-style: italic;
+        font-weight: 600;
+        text-align: center;
+      }
+
+
+ .card-img{
+
+    height: 300px;
+    width: 380px;;
+    margin-left: 2px;;
+   
+    border: 5px rgb(86, 125, 184) outset;
+    box-shadow: 3px 3px 10px #000;
+   
+}
+
+.card-icon{ 
+    position: absolute;
+    width: 30px;
+    margin-top: -20px;
+    margin-left: 340px;
+}
+
+.card-icon img  {
+    margin-top: 35px;;
+    max-width:40px;
+    max-height:35px;
+    width: auto;
+    height: auto;
+
+}
+.infos{
+   width: 386px;
+   margin-left: 6px;
+   margin-top: 25px;
+    height: 150px;
+    border-radius: 12px;
+    border: 1px dotted rgb(93, 92, 168);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#heroname {
+   
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.up{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
+.nameCard {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+#data-container{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    margin-left: 40%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
